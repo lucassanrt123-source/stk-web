@@ -1,0 +1,13 @@
+
+/* style.css - basic custom styles */
+:root{
+  --orange: #FF6B00;
+  --cyan: #00A6CF;
+  --dark: #333333;
+}
+body { font-family: 'Poppins', sans-serif; }
+a { color: var(--cyan); }
+.header-link { color: var(--dark); }
+.btn-primary { background: var(--orange); color: white; }
+.btn-outline { border: 2px solid var(--orange); color: var(--orange); }
+.card { background: white; border-radius: 8px; box-shadow: 0 6px 16px rgba(0,0,0,0.06); }
